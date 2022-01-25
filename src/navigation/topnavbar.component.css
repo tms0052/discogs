@@ -3,14 +3,52 @@
     margin-right: 0;
 }
 .search-bar{
-    position: absolute;
+    position: fixed;
+    width: auto;
+    height: auto;
     left:150px;
 }
 .toolbar{
-    position: absolute;
-    left:475px;
+    position: fixed;
+    width: auto;
+    height: auto;
+    left:500px;
 }
 .cart-login{
-    position: absolute;
+    position: fixed;
+    width: auto;
+    height: auto;
     right:35px;
+}
+
+.dropdown {
+    text-align:center;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    align-items:center;
+    justify-content: center;
+}
+
+.columnsC{
+    column-gap: 0;
+    
+}
+
+.columnsE{
+    column-count:4;
+    column-gap: 0;
+    
+    left: -450px;
+    right:auto;
+    
+}
+
+.columnsM{
+    column-count: 5;
+    column-gap: 0;
+    
+    left: -550px;
+    right:auto;
 }
