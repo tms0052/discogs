@@ -1,0 +1,22 @@
+.foot{
+    background-size:cover;
+    
+    padding:0;
+    margin: 0px;
+}
+
+.dsc-title{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.dsc-body{
+   
+    color: white;
+    font-size: 13px;
+}
+
+a:link {
+    text-decoration: none;
+  }

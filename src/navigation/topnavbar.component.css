@@ -7,7 +7,7 @@
     width: auto;
     height: auto;
     left:150px;
-    background-color: darkslategray;
+    background-color: rgb(51,51,51);
 }
 .toolbar{
     position: fixed;
