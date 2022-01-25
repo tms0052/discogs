@@ -1,0 +1,16 @@
+.container { 
+    margin-left: 0;
+    margin-right: 0;
+}
+.search-bar{
+    position: absolute;
+    left:150px;
+}
+.toolbar{
+    position: absolute;
+    left:475px;
+}
+.cart-login{
+    position: absolute;
+    right:35px;
+}
