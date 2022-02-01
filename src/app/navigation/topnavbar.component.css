@@ -3,20 +3,20 @@
     margin-right: 0;
 }
 .search-bar{
-    position: fixed;
+    position: absolute;
     width: auto;
     height: auto;
     left:150px;
     background-color: rgb(51,51,51);
 }
 .toolbar{
-    position: fixed;
+    position: absolute;
     width: auto;
     height: auto;
     left:500px;
 }
 .cart-login{
-    position: fixed;
+    position: absolute;
     width: auto;
     height: auto;
     right:35px;
