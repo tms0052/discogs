@@ -5,9 +5,9 @@ import { FooterNavComponent } from 'src/app/footer/footer.nav.component';
 import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
 
 import { AppComponent } from './app.component';
-import { BackgroundCardComponent } from './cards/background.card.component';
-import { HorizontalCardComponent } from './cards/horizontal.card.component';
-import { VerticalCardComponent } from './cards/vertical.card.component';
+import { BackgroundCardComponent } from './cards/background/background.card.component';
+import { HorizontalCardComponent } from './cards/horizontal/horizontal.card.component';
+import { VerticalCardComponent } from './cards/vertical/vertical.card.component';
 
 @NgModule({
   declarations: [
