@@ -1,8 +1,13 @@
 
-dsc-footernav{
-        position:relative;
+.footer{
+        position:absolute;
         bottom:0;
         width:100%;
-        height:10px;   /* Height of the footer */ 
+        height:10px; 
 }
 
+.header-5-albums{
+        font-size: 20px;
+        color: black;
+        font-weight: 700;
+}
