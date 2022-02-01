@@ -27,7 +27,7 @@ p{
 }
 
 .btn-sm{
-    background-color: limegreen; /*same as navbar but for whatever reason look different*/
+    background-color: rgb(92,190,59); /*same as navbar but for whatever reason look different*/
     color:white;
     border-width: 0.5px;
 }
