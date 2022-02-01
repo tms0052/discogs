@@ -1,0 +1,41 @@
+a:link {
+    text-decoration: none;
+  }
+
+.underline-on-hover:hover{
+    text-decoration: underline;
+}
+p{
+    margin:0
+}
+.fontSmall{
+    font-size:14px;
+    
+}
+
+.fontSmaller{
+    font-size:11px;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.gray{
+    color: lightslategray
+}
+
+.btn-sm{
+    background-color: limegreen; /*same as navbar but for whatever reason look different*/
+    color:white;
+    border-width: 0.5px;
+}
+
+.price{
+    color:red;
+}
+
+.bold{
+    font-weight: bold;
+}

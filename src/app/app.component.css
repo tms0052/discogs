@@ -1,3 +1,9 @@
+html { 
+        overflow-y: scroll; 
+        min-width: 550px;
+        position: relative;
+}
+body { position: absolute; }
 
 .footer{
         position:absolute;
