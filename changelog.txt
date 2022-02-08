@@ -1,0 +1,16 @@
+2/8/2022 Release
+    Main Features:
+        *Added the following attributes to vertical.card.component.ts
+            -img: string
+            -album: string
+            -artist: string
+
+        *Created mock_album_list.ts and album-list.model.ts for usage with vertical card ngFor loops
+        *Updated app.component.ts to incorporate new attributes for vertical card
+        *Updated app.component.html to utilize ngFor loops for implementing vertical cards
+
+    Minor Features:
+        *Made a album folder in assests to hold all album covers .jpg files
+    
+    Bonus Features:
+        *N/A
