@@ -1,4 +1,7 @@
 2/8/2022 Release
+
+    GitHub: https://github.com/tms0052/discogs
+
     Main Features:
         *Added the following attributes to vertical.card.component.ts
             -img: string
