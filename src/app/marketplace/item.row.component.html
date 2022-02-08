@@ -4,21 +4,21 @@
     </div>
     <div class="col-1 p-0 smallFont">
        <a href="#">
-           <img src="assets/albums/VampireWeekend.jpg" class="card-img-top px-0 m-0" alt="...">
+           <img src= {{img}} class="card-img-top px-0 m-0" alt="...">
         </a> 
         <p class = "fontSmaller gray">Rated: 5.00</p>
     </div>
     <div class="col-4 pl-1 fontSmall">
-        <a href="#" class="underline-on-hover bold">Artist - Album Name (Printing, Media Type)</a>
+        <a href="#" class="underline-on-hover bold">{{title}}</a>
         <p><span class="gray">Label: </span><a href="#" class="underline-on-hover">Record Label</a></p>
-        <p><span class="gray">Cat#: </span>00000000</p>
-        <p><span class="gray">Media Condition: </span>Condition</p>
-        <p><span class="gray">Sleeve Condition: </span>Condition</p>
-        <p>Seller Comment</p>
+        <p><span class="gray">Cat#: </span>{{catN}}</p>
+        <p><span class="gray">Media Condition: </span>{{mediaC}}</p>
+        <p><span class="gray">Sleeve Condition: </span>{{sleeveC}}</p>
+        <p>{{comment}}</p>
         <a href="#" class="underline-on-hover">View Release Page</a>
     </div>
     <div class="col-2 p-1 fontSmall">
-        <a href="#" class="underline-on-hover bold">Seller Username</a>
+        <a href="#" class="underline-on-hover bold">{{username}}</a>
         <p>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
                 <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -35,15 +35,15 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
                 <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
               </svg>
-             100% <a href="#" class="underline-on-hover"># ratings</a>
+             100% <a href="#" class="underline-on-hover">{{ratingsN}}</a>
         </p>
         
-        <p><span class="gray">Ships From: </span>Country</p>
+        <p><span class="gray">Ships From: </span>{{country}}</p>
     </div>
     <div class="col-2 p-1 fontSmall center">
-        <p class = "price bold">$10.00</p>
-        <p>+ $5.00 <a href="#" class= "underline-on-hover"> shipping</a></p>
-        <i class = "gray">about $15.00 total</i>
+        <p class = "price bold">${{price}}</p>
+        <p>+ ${{shippingP}} <a href="#" class= "underline-on-hover"> shipping</a></p>
+        <i class = "gray">about ${{total}} total</i>
     </div>
     <div class="col-1 p-1 fontSmall center">
         <button class="btn-sm btn-success cart" type="button">Add to Cart</button>

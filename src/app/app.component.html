@@ -3,10 +3,26 @@
     <dsc-topnavbar>Loading...</dsc-topnavbar>
 
     <div class="container-fluid">
-      <marketplace-row-card>Loading...</marketplace-row-card>
-      <marketplace-row-card>Loading...</marketplace-row-card>
-      <marketplace-row-card>Loading...</marketplace-row-card>
-      <marketplace-row-card>Loading...</marketplace-row-card>
+      <div *ngFor="let marketAlbum of marketAlbums">
+        <marketplace-row-card 
+        img = {{marketAlbum.img}
+        title = {{marketAlbum.title}}
+        label = {{marketAlbum.label}}
+        catN = {{marketAlbum.catN}}
+        mediaC = {{marketAlbum.mediaC}}
+        sleeveC= {{marketAlbum.sleeveC}}
+        comment = {{marketAlbum.comment}}
+        username = {{marketAlbum.username}}
+        country = {{marketAlbum.country}}
+        [ratingsN] = 'marketAlbum.ratingsN'
+        [shippingP] = 'marketAlbum.shippingP'
+        [price] = 'marketAlbum.price'
+        [total] = 'marketAlbum.total'
+
+        
+        
+        >Loading...</marketplace-row-card>}
+      </div>
     </div>
 
     <div class="container-fluid"> <!--- Will make this a whole component later, will have light and dark --->

@@ -13,4 +13,19 @@
         *Made a album folder in assests to hold all album covers .jpg files
     
     Bonus Features:
-        *N/A
+        *Added the follwoing attributes to item.row.component.ts
+            -img: string;
+            -title: string;
+            -label: string;
+            -catN: string;
+            -mediaC: string;
+            -sleeveC: string;
+            -comment: string;
+            -username: string;
+            -country: string;
+            -ratingsN: number;
+            -shippingP: number;
+            -price: number;
+            -total: number;
+        *created mock_listing_list.ts and mock-listing-model.ts 
+        *updated app.component.ts and .html to incorporate row component changes
