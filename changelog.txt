@@ -1,4 +1,4 @@
-2/8/2022 Release
+2/8/2022 Release Lab 3
 
     GitHub: https://github.com/tms0052/discogs
 
@@ -32,3 +32,24 @@
             -total: number;
         *created mock_listing_list.ts and mock-listing-model.ts 
         *updated app.component.ts and .html to incorporate row component changes
+
+2/15/2022 Release Lab 4
+
+   GitHub: https://github.com/tms0052/discogs
+
+    Main Features:
+        *Added the following new layout pages and routes
+            -digs-layout | digs
+            -community-guidelines-layout | Community-Guidelines
+            -home-layout | home
+            -explore-all-layout | Explore-All
+            -vinyl-market-layout | Vinyl-Market
+
+        *Moved Components from main page to host pages
+        *Routed navbar buttons to proper layout components
+
+    Minor Features:
+        *Added folders to better organize layout compoenents
+    
+    Bonus Features:
+        *Added descriptions to new layout pages to guide future work (a reach)
