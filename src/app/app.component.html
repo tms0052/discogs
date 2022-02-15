@@ -1,57 +1,15 @@
 <div>
-  <body>
-    <dsc-topnavbar>Loading...</dsc-topnavbar>
+    <div class="container-fluid"> 
+      <dsc-topnavbar>Loading...</dsc-topnavbar>
 
-    <div class="container-fluid">
-      <div *ngFor="let marketAlbum of marketAlbums">
-        <marketplace-row-card 
-        title = {{marketAlbum.title}}
-        label = {{marketAlbum.label}}
-        catN = {{marketAlbum.catN}}
-        mediaC = {{marketAlbum.mediaC}}
-        sleeveC= {{marketAlbum.sleeveC}}
-        comment = {{marketAlbum.comment}}
-        username = {{marketAlbum.username}}
-        country = {{marketAlbum.country}}
-        [ratingsN] = 'marketAlbum.ratingsN'
-        [shippingP] = 'marketAlbum.shippingP'
-        [price] = 'marketAlbum.price'
-        [total] = 'marketAlbum.total'
-        img = {{marketAlbum.img}}
+      <router-outlet></router-outlet>
 
-        
-        
-        >Loading...</marketplace-row-card>}
+
+     
+
+      <div class = "footer">
+          <dsc-footer>Loading...</dsc-footer>
+          <dsc-footernav>Loading...</dsc-footernav>
       </div>
     </div>
-
-    <div class="container-fluid"> <!--- Will make this a whole component later, will have light and dark --->
-        <p class="header-5-albums">Most Expensive Releases Sold This Month</p>
-        <div class="row align-items-center">
-          <div class = "col" *ngFor="let album of albums">
-            <dsc-vertical-card class="" img={{album.img}} album={{album.album}} artist={{album.artist}}>
-              Loading...
-            </dsc-vertical-card>
-         
-        </div>
-      </div>
-  </div>
-
-    <div class="container-fluid mt-5"> <!--- Will make this a whole component later, will have light and dark --->
-      <p class="header-5-albums">Explore Newly Added</p>
-      <div class="row align-items-center">
-          <div class = "col" *ngFor="let album of albums">
-            <dsc-vertical-card class="" img={{album.img}} album={{album.album}} artist={{album.artist}}>
-              Loading...
-            </dsc-vertical-card>
-         
-        </div>
-      </div>
-  </div>     
-
-    <div class = "footer">
-        <dsc-footer>Loading...</dsc-footer>
-        <dsc-footernav>Loading...</dsc-footernav>
-    </div>
-  </body>
 </div>

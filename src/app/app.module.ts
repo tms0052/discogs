@@ -9,6 +9,9 @@ import { BackgroundCardComponent } from './cards-home/background/background.card
 import { HorizontalCardComponent } from './cards-home/horizontal/horizontal.card.component';
 import { VerticalCardComponent } from './cards-home/vertical/vertical.card.component';
 import { MarketplaceItemRowComponent } from './marketplace/item.row.component';
+import { VinylMarketLayoutComponent } from './marketplace/vinyl-market-layout.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeLayoutComponent } from './navigation/home-layout/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +22,13 @@ import { MarketplaceItemRowComponent } from './marketplace/item.row.component';
     HorizontalCardComponent,
     VerticalCardComponent,
     BackgroundCardComponent,
-    MarketplaceItemRowComponent
+    MarketplaceItemRowComponent,
+    VinylMarketLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

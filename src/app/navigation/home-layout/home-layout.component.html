@@ -1,0 +1,30 @@
+
+Fancy Background Card <br>
+Ad <br>
+Black Background of below Card <br>
+
+  <div class="container-fluid"> <!--- Will make this a whole component later, will have light and dark --->
+      <p class="header-5-albums">Most Expensive Releases Sold This Month</p>
+      <div class="row align-items-center">
+        <div class = "col" *ngFor="let album of albums">
+          <dsc-vertical-card class="" img={{album.img}} album={{album.album}} artist={{album.artist}}>
+            Loading...
+          </dsc-vertical-card>
+       
+      </div>
+    </div>
+</div>
+<br>
+Cool little sign up for a newsletter form
+<br>
+  <div class="container-fluid mt-5"> <!--- Will make this a whole component later, will have light and dark --->
+    <p class="header-5-albums">Explore Newly Added</p>
+    <div class="row align-items-center">
+        <div class = "col" *ngFor="let album of albums">
+          <dsc-vertical-card class="" img={{album.img}} album={{album.album}} artist={{album.artist}}>
+            Loading...
+          </dsc-vertical-card>
+       
+      </div>
+    </div>
+</div>     

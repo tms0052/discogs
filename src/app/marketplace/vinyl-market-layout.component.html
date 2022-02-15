@@ -1,0 +1,32 @@
+
+
+
+Another Navbar Placeholder ---------------------------------- 
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------Searchbar
+<div class="container-fluid">
+    <div *ngFor="let marketAlbum of marketAlbums">
+      <marketplace-row-card 
+      title = {{marketAlbum.title}}
+      label = {{marketAlbum.label}}
+      catN = {{marketAlbum.catN}}
+      mediaC = {{marketAlbum.mediaC}}
+      sleeveC= {{marketAlbum.sleeveC}}
+      comment = {{marketAlbum.comment}}
+      username = {{marketAlbum.username}}
+      country = {{marketAlbum.country}}
+      [ratingsN] = 'marketAlbum.ratingsN'
+      [shippingP] = 'marketAlbum.shippingP'
+      [price] = 'marketAlbum.price'
+      [total] = 'marketAlbum.total'
+      img = {{marketAlbum.img}}
+
+      
+      
+      >Loading...</marketplace-row-card>}
+    </div>
+  </div>
+
+  Needs Pagination and another filter

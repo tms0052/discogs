@@ -2,11 +2,11 @@
     <link rel="stylesheet" href="topnavbar.component.css">
 </head>
 <nav class = "navbar navbar-dark bg-dark">
-    <div class = "container">
-        <a class="navbar-brand dsc" href="#">
+    <div class = "container-fluid">
+        <a routerLink="home" class="navbar-brand dsc col-1" href="#">
             <img src="assets/discogs-white.png" alt="" width="112" height="40">
           </a>
-          <form class="search-bar d-flex">
+          <form class="search-bar d-flex col-2">
             <input class="form-control me-2" type="search" placeholder="Search artists, albums and more..." aria-label="Search artists, albums and more">
             <button class="btn btn-light" type="submit">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -58,7 +58,7 @@
                 </button>
                 <ul class="dropdown-menu columnsM dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                   <li><a class="dropdown-item" href="#"><span class="bolded">Format</span></a></li>
-                  <li><a class="dropdown-item" href="#">Vinyl</a></li>
+                  <li><a routerLink="Vinyl-Market" class="dropdown-item" href="#">Vinyl</a></li>
                   <li><a class="dropdown-item" href="#">CD</a></li>
                   <li><a class="dropdown-item" href="#">Cassette</a></li>
                   <li><a class="dropdown-item" href="#">DVD</a></li>

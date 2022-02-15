@@ -11,21 +11,6 @@ import { mock_listing_list } from './marketplace/mock_listing_list';
 })
 export class AppComponent {
   title = 'discogs';
-  albums: AlbumListModel [] = [];
-  marketAlbums: MarketAlbumListModel [] = [];
-
-  constructor(){
-    //put some code to fetch data from backend
-
-    for (var album of mock_album_list){
-      console.log(album);
-      this.albums.push(album);
-    }
-
-    for(var marketAlbum of mock_listing_list){
-      console.log(marketAlbum)
-      this.marketAlbums.push(marketAlbum)
-    }
-  }
+  
 
 }
