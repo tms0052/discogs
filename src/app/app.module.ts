@@ -12,6 +12,9 @@ import { MarketplaceItemRowComponent } from './marketplace/item-row/item.row.com
 import { VinylMarketLayoutComponent } from './marketplace/vinyl-market-layout/vinyl-market-layout.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeLayoutComponent } from './navigation/home-layout/home-layout.component';
+import { ExploreAllLayoutComponent } from './explore/explore-all-layout/explore-all-layout.component';
+import { DigsLayoutComponent } from './community/digs-layout/digs-layout.component';
+import { CommunityGuidelinesLayoutComponent } from './community/community-guidelines-layout/community-guidelines-layout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { HomeLayoutComponent } from './navigation/home-layout/home-layout.compon
     BackgroundCardComponent,
     MarketplaceItemRowComponent,
     VinylMarketLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    ExploreAllLayoutComponent,
+    DigsLayoutComponent,
+    CommunityGuidelinesLayoutComponent
   ],
   imports: [
     BrowserModule,
