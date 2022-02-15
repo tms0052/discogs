@@ -1,7 +1,7 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule, Routes } from "@angular/router";
-import { VinylMarketLayoutComponent } from "./marketplace/vinyl-market-layout.component";
+import { VinylMarketLayoutComponent } from "./marketplace/vinyl-market-layout/vinyl-market-layout.component";
 import { HomeLayoutComponent } from "./navigation/home-layout/home-layout.component";
 
 const routes:Routes = [

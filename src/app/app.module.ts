@@ -8,8 +8,8 @@ import { AppComponent } from './app.component';
 import { BackgroundCardComponent } from './cards-home/background/background.card.component';
 import { HorizontalCardComponent } from './cards-home/horizontal/horizontal.card.component';
 import { VerticalCardComponent } from './cards-home/vertical/vertical.card.component';
-import { MarketplaceItemRowComponent } from './marketplace/item.row.component';
-import { VinylMarketLayoutComponent } from './marketplace/vinyl-market-layout.component';
+import { MarketplaceItemRowComponent } from './marketplace/item-row/item.row.component';
+import { VinylMarketLayoutComponent } from './marketplace/vinyl-market-layout/vinyl-market-layout.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeLayoutComponent } from './navigation/home-layout/home-layout.component';
 

@@ -1,6 +1,6 @@
 import { Component} from "@angular/core";
-import { MarketAlbumListModel } from "./mock-listing.model";
-import { mock_listing_list } from "./mock_listing_list";
+import { MarketAlbumListModel } from "../mock-listing.model";
+import { mock_listing_list } from "../mock_listing_list";
 
 @Component({
     selector: 'dsc-vinyl-market',
