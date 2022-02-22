@@ -15,6 +15,8 @@ import { HomeLayoutComponent } from './navigation/home-layout/home-layout.compon
 import { ExploreAllLayoutComponent } from './explore/explore-all-layout/explore-all-layout.component';
 import { DigsLayoutComponent } from './community/digs-layout/digs-layout.component';
 import { CommunityGuidelinesLayoutComponent } from './community/community-guidelines-layout/community-guidelines-layout.component';
+import { SidebarComponent } from './explore/sidebar/sidebar.component';
+import { TabNavbarComponent } from './explore/tab-navbar/tab-navbar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { CommunityGuidelinesLayoutComponent } from './community/community-guidel
     HomeLayoutComponent,
     ExploreAllLayoutComponent,
     DigsLayoutComponent,
-    CommunityGuidelinesLayoutComponent
+    CommunityGuidelinesLayoutComponent,
+    SidebarComponent,
+    TabNavbarComponent
   ],
   imports: [
     BrowserModule,
