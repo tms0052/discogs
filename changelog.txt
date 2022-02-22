@@ -53,3 +53,25 @@
     
     Bonus Features:
         *Added descriptions to new layout pages to guide future work (a reach)
+
+2/22/2022 Release Lab 5
+
+   GitHub: https://github.com/tms0052/discogs
+
+    Main Features:
+        *Added the following new components
+            -marketplace-sidebar | marketplace
+            -marketplace-tabnavbar | marketplace
+            -dark-vert-card | home
+            -explore-cards | explore
+            -sidebar | explore
+            -tab-navbar | explore
+
+        *removed placeholder text from old components
+        *added new components to corresponding layouts and used flex to properly space them
+
+    Minor Features:
+        *Used folders to better organize components
+    
+    Bonus Features:
+        *Began work on digs-small-card
