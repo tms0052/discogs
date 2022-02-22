@@ -17,6 +17,7 @@ import { DigsLayoutComponent } from './community/digs-layout/digs-layout.compone
 import { CommunityGuidelinesLayoutComponent } from './community/community-guidelines-layout/community-guidelines-layout.component';
 import { SidebarComponent } from './explore/sidebar/sidebar.component';
 import { TabNavbarComponent } from './explore/tab-navbar/tab-navbar.component';
+import { ExploreCardsComponent } from './explore/explore-cards/explore-cards.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { TabNavbarComponent } from './explore/tab-navbar/tab-navbar.component';
     DigsLayoutComponent,
     CommunityGuidelinesLayoutComponent,
     SidebarComponent,
-    TabNavbarComponent
+    TabNavbarComponent,
+    ExploreCardsComponent
   ],
   imports: [
     BrowserModule,
