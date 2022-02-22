@@ -1,0 +1,10 @@
+.card{
+    height: auto;
+    width: 500px;
+    
+    
+}
+
+card:hover{
+    background-color: yellow;
+}

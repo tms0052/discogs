@@ -1,6 +1,17 @@
 
 Fancy Background Card <br>
 Ad <br>
+<div class="container-fluid mt-5 bg-dark"> <!--- Will make this a whole component later, will have light and dark --->
+  <p class="header-5-albums text-white">Trending Releases</p>
+  <div class="row align-items-center">
+      <div class = "col" *ngFor="let album of albums">
+        <dsc-dark-vert-card class="" img={{album.img}} album={{album.album}} artist={{album.artist}}>
+          Loading...
+        </dsc-dark-vert-card>
+     
+    </div>
+  </div>
+</div>     
 Black Background of below Card <br>
 
   <div class="container-fluid"> <!--- Will make this a whole component later, will have light and dark --->

@@ -21,6 +21,7 @@ import { ExploreCardsComponent } from './explore/explore-cards/explore-cards.com
 import { MarketplaceSidebarComponent } from './marketplace/marketplace-sidebar/marketplace-sidebar.component';
 import { MarketplaceTabnavbarComponent } from './marketplace/marketplace-tabnavbar/marketplace-tabnavbar.component';
 import { DigsSmallCardsComponent } from './community/digs-small-cards/digs-small-cards.component';
+import { DarkVertCardComponent } from './cards-home/dark-vert-card/dark-vert-card.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { DigsSmallCardsComponent } from './community/digs-small-cards/digs-small
     ExploreCardsComponent,
     MarketplaceSidebarComponent,
     MarketplaceTabnavbarComponent,
-    DigsSmallCardsComponent
+    DigsSmallCardsComponent,
+    DarkVertCardComponent
   ],
   imports: [
     BrowserModule,

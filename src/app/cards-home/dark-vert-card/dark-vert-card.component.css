@@ -1,0 +1,26 @@
+.card{
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    background-color: black;
+}
+
+.album{
+    font-size: 17px;
+}
+
+.artist{
+    font-size: 15px;
+}
+.colorFont{
+    color: white;
+    font-weight:500;
+}
+
+.underline-on-hover:hover{
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
