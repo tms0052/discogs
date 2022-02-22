@@ -18,6 +18,9 @@ import { CommunityGuidelinesLayoutComponent } from './community/community-guidel
 import { SidebarComponent } from './explore/sidebar/sidebar.component';
 import { TabNavbarComponent } from './explore/tab-navbar/tab-navbar.component';
 import { ExploreCardsComponent } from './explore/explore-cards/explore-cards.component';
+import { MarketplaceSidebarComponent } from './marketplace/marketplace-sidebar/marketplace-sidebar.component';
+import { MarketplaceTabnavbarComponent } from './marketplace/marketplace-tabnavbar/marketplace-tabnavbar.component';
+import { DigsSmallCardsComponent } from './community/digs-small-cards/digs-small-cards.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { ExploreCardsComponent } from './explore/explore-cards/explore-cards.com
     CommunityGuidelinesLayoutComponent,
     SidebarComponent,
     TabNavbarComponent,
-    ExploreCardsComponent
+    ExploreCardsComponent,
+    MarketplaceSidebarComponent,
+    MarketplaceTabnavbarComponent,
+    DigsSmallCardsComponent
   ],
   imports: [
     BrowserModule,
