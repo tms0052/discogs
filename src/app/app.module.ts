@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FooterComponent } from 'src/app/footer/footer.component';
 import { FooterNavComponent } from 'src/app/footer/footer.nav.component';
 import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { BackgroundCardComponent } from './cards-home/background/background.card.component';
@@ -22,6 +23,7 @@ import { MarketplaceSidebarComponent } from './marketplace/marketplace-sidebar/m
 import { MarketplaceTabnavbarComponent } from './marketplace/marketplace-tabnavbar/marketplace-tabnavbar.component';
 import { DigsSmallCardsComponent } from './community/digs-small-cards/digs-small-cards.component';
 import { DarkVertCardComponent } from './cards-home/dark-vert-card/dark-vert-card.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +46,13 @@ import { DarkVertCardComponent } from './cards-home/dark-vert-card/dark-vert-car
     MarketplaceSidebarComponent,
     MarketplaceTabnavbarComponent,
     DigsSmallCardsComponent,
-    DarkVertCardComponent
+    DarkVertCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
