@@ -1,5 +1,6 @@
-import { Component} from "@angular/core";
-import { MarketAlbumListModel } from "../mock-listing.model";
+import { Component, OnInit} from "@angular/core";
+import { MarketAlbumListModel } from "../listing.model";
+import { ListingService } from "../listing.service";
 import { mock_listing_list } from "../mock_listing_list";
 
 @Component({
@@ -9,19 +10,21 @@ import { mock_listing_list } from "../mock_listing_list";
 
 })
 
-export class VinylMarketLayoutComponent{
+export class VinylMarketLayoutComponent implements OnInit{
     
     marketAlbums: MarketAlbumListModel [] = [];
   
-    constructor(){
-      //put some code to fetch data from backend
-  
-      
-  
-      for(var marketAlbum of mock_listing_list){
-        console.log(marketAlbum)
-        this.marketAlbums.push(marketAlbum)
-      }
+    constructor(private listingService:ListingService){
+    
     }
+  ngOnInit(): void {
+    this.listingService.getListings().subscribe((data: MarketAlbumListModel []) => {
+      console.log("fetching");
+      for( var listing of data){
+        console.log(listing);
+        this.marketAlbums.push(listing);
+      }
+    });
+  }
 
 }
