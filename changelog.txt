@@ -89,3 +89,17 @@
 
     Minor Features:
         *N/A
+
+3/8/2022 Release Lab 7
+
+   GitHub: https://github.com/tms0052/discogs
+   JSON: https://discogs-app-dffb9-default-rtdb.firebaseio.com/my-info.json
+
+    Main Features:
+        *Added the following new components
+            -listing.service.ts
+        *replaced mock-listing-data with real time database info using service component
+        *altered vinyl-market-layout.component.ts to now use real time database 
+
+    Minor Features:
+        *N/A
