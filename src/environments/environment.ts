@@ -3,6 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  firebase: {
+    projectId: 'discogs-app-dffb9',
+    appId: '1:104439111251:web:c31232cf59e48dd48370a6',
+    databaseURL: 'https://discogs-app-dffb9-default-rtdb.firebaseio.com',
+    storageBucket: 'discogs-app-dffb9.appspot.com',
+    apiKey: 'AIzaSyBgRJ6mWVcFBdMuiMkYuU7s0p0aDq4uPp8',
+    authDomain: 'discogs-app-dffb9.firebaseapp.com',
+    messagingSenderId: '104439111251',
+    measurementId: 'G-J8RVMNP032',
+  },
   production: false
 };
 

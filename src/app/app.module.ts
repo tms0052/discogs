@@ -24,6 +24,11 @@ import { MarketplaceTabnavbarComponent } from './marketplace/marketplace-tabnavb
 import { DigsSmallCardsComponent } from './community/digs-small-cards/digs-small-cards.component';
 import { DarkVertCardComponent } from './cards-home/dark-vert-card/dark-vert-card.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -52,7 +57,9 @@ import { UserInfoComponent } from './user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

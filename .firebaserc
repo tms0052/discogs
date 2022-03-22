@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "discogs-app-dffb9"
+  },
+  "targets": {
+    "discogs-app-dffb9": {
+      "hosting": {
+        "discogs": [
+          "discogs-app-dffb9"
+        ]
+      }
+    }
   }
 }
