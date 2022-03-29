@@ -1,11 +1,62 @@
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <form action="">
+            <form #postForm="ngForm" (ngSubmit) = "addProduct(postForm.value)">
                 <div class="input-group">
-                    <span class = "pinput-group-text">Hello WOrld</span>
+                    <span class = "input-group-text">Title</span>
+                    <input type="text" class = "form-control" ngModel name = "title">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Label</span>
+                    <input type="text" class = "form-control" ngModel name = "lavel">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Cat Number</span>
+                    <input type="text" class = "form-control" ngModel name = "catN">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Media Condition</span>
+                    <input type="text" class = "form-control" ngModel name = "mediaC">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Sleeve Condition</span>
+                    <input type="text" class = "form-control" ngModel name = "sleeveC">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Comment</span>
+                    <input type="text" class = "form-control" ngModel name = "comment">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Username</span>
+                    <input type="text" class = "form-control" ngModel name = "username">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Country</span>
+                    <input type="text" class = "form-control" ngModel name = "country">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Ratings Number</span>
+                    <input type="number" class = "form-control" ngModel name = "ratingsN">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Shipping Price</span>
+                    <input type="number" class = "form-control" ngModel name = "shippingP">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Item Price</span>
+                    <input type="number" class = "form-control" ngModel name = "price">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Total</span>
+                    <input type="number" class = "form-control" ngModel name = "total">
+                </div>
+                <div class="input-group">
+                    <span class = "input-group-text">Image Path</span>
                     <input type="text" class = "form-control">
                 </div>
+                <button class = "btn btn-dark" type = "submit" ngModel name = "img">
+                    Add Product
+                </button>
 
             </form>
         </div>

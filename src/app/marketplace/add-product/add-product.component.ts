@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MarketAlbumListModel } from '../listing.model';
 
 @Component({
   selector: 'dsc-add-product',
@@ -12,4 +13,8 @@ export class AddProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addProduct(product: MarketAlbumListModel){
+    console.log("you clicked the button")
+    console.log(product);
+  }
 }
