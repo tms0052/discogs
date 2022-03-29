@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MarketAlbumListModel } from '../listing.model';
+import { ListingService } from '../listing.service';
 
 @Component({
   selector: 'dsc-add-product',
@@ -8,7 +9,7 @@ import { MarketAlbumListModel } from '../listing.model';
 })
 export class AddProductComponent implements OnInit {
 
-  constructor() { }
+  constructor(private ps:ListingService) { }
 
   ngOnInit(): void {
   }
@@ -16,5 +17,7 @@ export class AddProductComponent implements OnInit {
   addProduct(product: MarketAlbumListModel){
     console.log("you clicked the button")
     console.log(product);
+    this.ps.addProduct(product);
+
   }
 }

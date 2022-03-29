@@ -21,4 +21,7 @@ export class ListingService {
         return this.db.list<MarketAlbumListModel>("listing").valueChanges();
     }
 
+    addProduct(product: MarketAlbumListModel){
+        this.db.list<MarketAlbumListModel>("listing").push(product);
+    }
 }
