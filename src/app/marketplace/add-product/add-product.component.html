@@ -4,23 +4,23 @@
             <form #postForm="ngForm" (ngSubmit) = "addProduct(postForm.value)">
                 <div class="input-group">
                     <span class = "input-group-text">Title</span>
-                    <input type="text" class = "form-control" ngModel name = "title">
+                    <input type="text" class = "form-control" required ngModel name = "title">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Label</span>
-                    <input type="text" class = "form-control" ngModel name = "lavel">
+                    <input type="text" class = "form-control" required ngModel name = "lavel">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Cat Number</span>
-                    <input type="text" class = "form-control" ngModel name = "catN">
+                    <input type="text" class = "form-control" required ngModel name = "catN">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Media Condition</span>
-                    <input type="text" class = "form-control" ngModel name = "mediaC">
+                    <input type="text" class = "form-control" required ngModel name = "mediaC">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Sleeve Condition</span>
-                    <input type="text" class = "form-control" ngModel name = "sleeveC">
+                    <input type="text" class = "form-control" required ngModel name = "sleeveC">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Comment</span>
@@ -28,33 +28,33 @@
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Username</span>
-                    <input type="text" class = "form-control" ngModel name = "username">
+                    <input type="text" class = "form-control" required ngModel name = "username">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Country</span>
-                    <input type="text" class = "form-control" ngModel name = "country">
+                    <input type="text" class = "form-control" required ngModel name = "country">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Ratings Number</span>
-                    <input type="number" class = "form-control" ngModel name = "ratingsN">
+                    <input type="number" class = "form-control" required ngModel name = "ratingsN">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Shipping Price</span>
-                    <input type="number" class = "form-control" ngModel name = "shippingP">
+                    <input type="number" class = "form-control" required ngModel name = "shippingP">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Item Price</span>
-                    <input type="number" class = "form-control" ngModel name = "price">
+                    <input type="number" class = "form-control" required ngModel name = "price">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Total</span>
-                    <input type="number" class = "form-control" ngModel name = "total">
+                    <input type="number" class = "form-control" required ngModel name = "total">
                 </div>
                 <div class="input-group">
                     <span class = "input-group-text">Image Path</span>
-                    <input type="text" class = "form-control" ngModel name = "img">
+                    <input type="text" class = "form-control" required ngModel name = "img">
                 </div>
-                <button class = "btn btn-dark" type = "submit" >
+                <button class = "btn btn-dark" type = "submit" [disabled] = "!postForm.valid">
                     Add Product
                 </button>
 

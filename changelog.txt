@@ -117,3 +117,19 @@
 
     Minor Features:
         *N/A
+
+3/22/2022 Release Lab 9
+
+   GitHub: https://github.com/tms0052/discogs
+   JSON: https://discogs-app-dffb9-default-rtdb.firebaseio.com/my-info.json
+   URL: https://discogs-app-dffb9.web.app/
+   
+    Main Features:
+        *added addProductComponent and routed to /admin
+            -form that takes in parameters for a vinyl market listing
+            -requires all fields
+            -some inputes restricted to numbers
+        *updated listing.service to have a addProduct() method that pushed data to db
+
+    Minor Features:
+        *N/A
