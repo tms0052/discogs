@@ -103,3 +103,17 @@
 
     Minor Features:
         *N/A
+
+3/22/2022 Release Lab 8
+
+   GitHub: https://github.com/tms0052/discogs
+   JSON: https://discogs-app-dffb9-default-rtdb.firebaseio.com/my-info.json
+   URL: https://discogs-app-dffb9.web.app/
+   
+    Main Features:
+        *Adjusted HttpClient dependencies and changed to Angular Fire dependencies
+            -listing.service.ts
+        *added firebase hosting and deployed webapp 
+
+    Minor Features:
+        *N/A
