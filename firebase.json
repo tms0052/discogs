@@ -1,6 +1,7 @@
 {
   "hosting": [
     {
+      "target": "discogs",
       "public": "dist/discogs",
       "ignore": [
         "firebase.json",
