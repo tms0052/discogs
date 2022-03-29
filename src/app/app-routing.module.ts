@@ -6,13 +6,15 @@ import { HomeLayoutComponent } from "./navigation/home-layout/home-layout.compon
 import { ExploreAllLayoutComponent } from "./explore/explore-all-layout/explore-all-layout.component";
 import { DigsLayoutComponent } from "./community/digs-layout/digs-layout.component";
 import { CommunityGuidelinesLayoutComponent } from "./community/community-guidelines-layout/community-guidelines-layout.component";
+import { AddProductComponent } from "./marketplace/add-product/add-product.component";
 
 const routes:Routes = [
     {path: 'Vinyl-Market', component: VinylMarketLayoutComponent},
     {path: 'home', component: HomeLayoutComponent},
     {path: 'Explore-All', component: ExploreAllLayoutComponent}, 
     {path: 'digs', component:DigsLayoutComponent },
-    {path: 'Community-Guidelines', component:CommunityGuidelinesLayoutComponent}
+    {path: 'Community-Guidelines', component:CommunityGuidelinesLayoutComponent},
+    {path: 'admin', component: AddProductComponent},
 
 ];
 

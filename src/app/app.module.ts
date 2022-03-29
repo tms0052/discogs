@@ -29,6 +29,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddProductComponent } from './marketplace/add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     MarketplaceTabnavbarComponent,
     DigsSmallCardsComponent,
     DarkVertCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddProductComponent
   ],
   imports: [
     BrowserModule,
