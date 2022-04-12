@@ -7,6 +7,7 @@ import { ExploreAllLayoutComponent } from "./explore/explore-all-layout/explore-
 import { DigsLayoutComponent } from "./community/digs-layout/digs-layout.component";
 import { CommunityGuidelinesLayoutComponent } from "./community/community-guidelines-layout/community-guidelines-layout.component";
 import { AddProductComponent } from "./marketplace/add-product/add-product.component";
+import { AuthComponent } from "./auth/auth.component";
 
 const routes:Routes = [
     {path: 'Vinyl-Market', component: VinylMarketLayoutComponent},
@@ -15,6 +16,7 @@ const routes:Routes = [
     {path: 'digs', component:DigsLayoutComponent },
     {path: 'Community-Guidelines', component:CommunityGuidelinesLayoutComponent},
     {path: 'admin', component: AddProductComponent},
+    {path: 'auth', component:AuthComponent},
 
 ];
 
