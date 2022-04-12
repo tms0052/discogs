@@ -134,3 +134,18 @@
     Bonus?
         *my form restricts submission until required fields are filled and also ensures integers are sent to the backend as integers
             -not sure if this counts for bonus^
+
+4/12/22 Release Lab 10
+
+GitHub: https://github.com/tms0052/discogs
+   JSON: https://discogs-app-dffb9-default-rtdb.firebaseio.com/my-info.json
+   URL: https://discogs-app-dffb9.web.app/
+
+    Main Features:
+    *added auth folder and all child files
+    *enabled authentication on my firebase rtdb
+    *added users to firebase using authComponent
+
+    Bonus:
+    *N/A
+    
